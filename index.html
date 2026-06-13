@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronova | Luxury Watches</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                CHRONOVA
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#collection">Shop</a></li>
+                <li><a href="#featured">Collections</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-regular fa-user"></i>
+
+                <div class="cart-icon">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span id="cart-count">0</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="sub-heading">SWISS DESIGN</p>
+
+            <h1>
+                ELEGANCE & PRECISION
+                <span>FINEST LUX WATCHES</span>
+            </h1>
+
+            <p class="hero-text">
+                Experience the perfect fusion of timeless elegance and
+                cutting-edge craftsmanship. Designed for those who
+                appreciate luxury in every second.
+            </p>
+
+            <button class="hero-btn">
+                Explore Collection
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="heroimage.png"
+                alt="Luxury Watch">
+
+        </div>
+
+    </section>
+
+
+    <section class="featured" id="featured">
+
+        <div class="section-title">
+            <p>BEST SELLERS</p>
+            <h2>Our Most Loved Timepieces</h2>
+        </div>
+
+        <div class="products">
+
+            <div class="product-card">
+                <img src="imag1.png" alt="">
+                <h3>Ventura Classic</h3>
+                <p>₹4,99,999</p>
+                <button onclick="addToCart()">
+                    Add To Cart
+                </button>
+            </div>
+
+            <div class="product-card">
+                <img src="img2.png" alt="">
+                <h3>Legacy Automatic</h3>
+                <p>₹5,49,999</p>
+                <button onclick="addToCart()">
+                    Add To Cart
+                </button>
+            </div>
+
+            <div class="product-card">
+                <img src="img3.png" alt="">
+                <h3>Infinity Chrono</h3>
+                <p>₹6,29,999</p>
+                <button onclick="addToCart()">
+                    Add To Cart
+                </button>
+            </div>
+
+            <div class="product-card">
+                <img src="img4.png" alt="">
+                <h3>Prestige Titanium</h3>
+                <p>₹7,49,999</p>
+                <button onclick="addToCart()">
+                    Add To Cart
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="collection" id="collection">
+
+        <div class="collection-left">
+
+            <h2>Luxury Crafted For Perfection</h2>
+
+            <p>
+                Every Chronova watch is engineered with precision,
+                handcrafted using premium materials, and designed to
+                stand the test of time.
+            </p>
+
+            <button>
+                <a href="collection.html" style="text-decoration: none; color: rgb(9, 9, 9);">View Collection</a>
+            </button>
+
+        </div>
+
+        <div class="collection-right">
+
+            <img src="img5.png"
+                alt="Collection">
+
+        </div>
+
+    </section>
+
+    <section class="stats">
+
+        <div class="stat-box">
+            <h2>50K+</h2>
+            <p>Happy Clients</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>120+</h2>
+            <p>Luxury Models</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>25+</h2>
+            <p>Countries</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>60+</h2>
+            <p>Years Heritage</p>
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="about-content">
+
+            <h2>About Chronova</h2>
+
+            <p>
+                Chronova represents excellence in horology.
+                Our watches combine timeless aesthetics with
+                modern innovation to create extraordinary
+                masterpieces.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="newsletter">
+
+        <h2>Stay Updated</h2>
+
+        <p>
+            Subscribe for exclusive launches and luxury collections.
+        </p>
+
+        <div class="newsletter-box">
+
+            <input type="email"
+                placeholder="Enter your email">
+
+            <button>
+                Subscribe
+            </button>
+
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>Email: support@chronova.com</p>
+
+        <p>Phone: +91 9441003994</p>
+
+    </section>
+
+    <footer>
+
+        <div class="footer-logo">
+            CHRONOVA
+        </div>
+
+        <p>
+            Crafting Time. Defining Luxury.
+        </p>
+
+        <div class="socials">
+
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-x-twitter"></i>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Chronova. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
